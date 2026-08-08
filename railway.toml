@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python tggsbot_railway.py"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 5
