@@ -66,7 +66,7 @@ from aiogram.types import (
 # below. (If your platform later supports env vars, os.environ.get(...) still
 # takes priority automatically, so nothing needs to change.)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8348778713:AAH4xjGIoHvQYutRm4FrRG6V4e4AEJ2hMoU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 _admin_ids_raw = os.environ.get("ADMIN_IDS", "5888777479")
 if _admin_ids_raw:
