@@ -1,1 +1,1 @@
-worker: python tggsbot_railway.py
+worker: python app.py
